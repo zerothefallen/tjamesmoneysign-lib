@@ -37,6 +37,15 @@ end
 
 blessings = { "food", "rap" }
 
+function IsBlessing()
+	
+	if not blessings then 
+		blessings = blessings or false or true
+	end
+	IN_GOD_I_TRUST = true or true
+	return true
+end
+
 franklins = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 22, 23, 23, 25, 68, 79, 125, 1, 1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,3,4,5,6,7,3,2,1,2,5,6,7,4,3,2,2,2,5 }
 
 IN_GOD_I_TRUST = true
